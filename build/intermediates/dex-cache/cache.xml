@@ -3,12 +3,12 @@
 
     <item
         is-multidex="false"
-        jar="C:\Users\ben\Desktop\CollegeBudgetTracker\manageexpensedelta\app\libs\GraphView-4.2.1.jar"
+        jar="C:\Users\Revant\Desktop\dell\manageexpensedelta\app\libs\GraphView-4.2.1.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.2"
         sha1="3626a38455159707e355da96a61e598fbbc049e9">
-        <dex dex="C:\Users\ben\Desktop\CollegeBudgetTracker\manageexpensedelta\app\build\intermediates\pre-dexed\debug\GraphView-4.2.1_202db9b24c72888edcac92b0cb439a19a56b3741.jar" />
+        <dex dex="C:\Users\Revant\Desktop\dell\manageexpensedelta\app\build\intermediates\pre-dexed\debug\GraphView-4.2.1_48adf33626e64d24f3aa64b6ba57dca1c803d9a2.jar" />
     </item>
 
 </items>

@@ -52,8 +52,13 @@ TextView t;
       //  adapter = new TabHistory_Week_Adapter(getApplicationContext(), (ArrayList<TabHistory_Week_List>) lists);
        // Toast.makeText(getApplicationContext(), a,Toast.LENGTH_SHORT).show();
         int a=db.getContactsCount();
-        t.setText(Integer.toString(a), TextView.BufferType.EDITABLE);
-        Log.d("Name: ", String.valueOf(a));
+        String jj=db.getContacts1Count();
+        String oo=jj.substring(3,5);
+        int yy=Integer.parseInt(oo);
+        int gj=30-yy;
+        int average=(3800-a)/gj;
+        t.setText(Integer.toString(average), TextView.BufferType.EDITABLE);
+        Log.d("Name: ", jj);
 
 
     }

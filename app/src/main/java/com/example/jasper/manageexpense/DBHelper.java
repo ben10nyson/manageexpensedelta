@@ -9,6 +9,7 @@ import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 
 import java.util.ArrayList;
+import java.util.Date;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Locale;
@@ -254,6 +255,27 @@ public class DBHelper extends SQLiteOpenHelper {
             cursor.moveToNext();
         }
       //  int y=cursor.getCount();
+        cursor.close();
+
+        // return count
+        return y;
+    }
+
+
+    public String getContacts1Count() {
+        String countQuery = "SELECT  date FROM Add_Expense where category_Add='Mess' order by date DESC" ;
+        SQLiteDatabase db = this.getReadableDatabase();
+        Cursor cursor = db.rawQuery(countQuery, null);
+    //    String f=cursor.getString(0);
+        cursor.moveToFirst();
+        String y="";
+        while (!cursor.isAfterLast()) {
+            y =y+cursor.getString(0);
+            break;
+
+           // cursor.moveToNext();
+        }
+        //  int y=cursor.getCount();
         cursor.close();
 
         // return count

@@ -1,140 +1,140 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\ben\Desktop\CollegeBudgetTracker\manageexpensedelta\app\src\main\AndroidManifest.xml:2:1-84:12
+ADDED from C:\Users\Revant\Desktop\dell\manageexpensedelta\app\src\main\AndroidManifest.xml:2:1-84:12
 	package
-		ADDED from C:\Users\ben\Desktop\CollegeBudgetTracker\manageexpensedelta\app\src\main\AndroidManifest.xml:3:5-47
-		INJECTED from C:\Users\ben\Desktop\CollegeBudgetTracker\manageexpensedelta\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\ben\Desktop\CollegeBudgetTracker\manageexpensedelta\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Revant\Desktop\dell\manageexpensedelta\app\src\main\AndroidManifest.xml:3:5-47
+		INJECTED from C:\Users\Revant\Desktop\dell\manageexpensedelta\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Revant\Desktop\dell\manageexpensedelta\app\src\main\AndroidManifest.xml
 	android:versionName
-		INJECTED from C:\Users\ben\Desktop\CollegeBudgetTracker\manageexpensedelta\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\ben\Desktop\CollegeBudgetTracker\manageexpensedelta\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Revant\Desktop\dell\manageexpensedelta\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Revant\Desktop\dell\manageexpensedelta\app\src\main\AndroidManifest.xml
 	xmlns:android
-		ADDED from C:\Users\ben\Desktop\CollegeBudgetTracker\manageexpensedelta\app\src\main\AndroidManifest.xml:2:11-69
+		ADDED from C:\Users\Revant\Desktop\dell\manageexpensedelta\app\src\main\AndroidManifest.xml:2:11-69
 	android:versionCode
-		INJECTED from C:\Users\ben\Desktop\CollegeBudgetTracker\manageexpensedelta\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\ben\Desktop\CollegeBudgetTracker\manageexpensedelta\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Revant\Desktop\dell\manageexpensedelta\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Revant\Desktop\dell\manageexpensedelta\app\src\main\AndroidManifest.xml
 supports-screens
-ADDED from C:\Users\ben\Desktop\CollegeBudgetTracker\manageexpensedelta\app\src\main\AndroidManifest.xml:5:5-12:24
+ADDED from C:\Users\Revant\Desktop\dell\manageexpensedelta\app\src\main\AndroidManifest.xml:5:5-12:24
 application
-ADDED from C:\Users\ben\Desktop\CollegeBudgetTracker\manageexpensedelta\app\src\main\AndroidManifest.xml:14:5-82:19
-MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\ben\.android\build-cache\197aad3f832660fc5a88dfd9c89740a8e42add9e\output\AndroidManifest.xml:9:5-20
-MERGED from [com.android.support:design:25.2.0] C:\Users\ben\.android\build-cache\e629e20ea872fa56ef5b87c4ef1338e3a86c5095\output\AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:transition:25.2.0] C:\Users\ben\.android\build-cache\4764a1f67e780a6a44717940d3ff6543970f08d2\output\AndroidManifest.xml:22:5-20
-MERGED from [com.github.QuadFlask:colorpicker:0.0.13] C:\Users\ben\.android\build-cache\a64a5b16493c41548d725e51929f2570470d9393\output\AndroidManifest.xml:12:5-20
-MERGED from [com.android.support:appcompat-v7:25.2.0] C:\Users\ben\.android\build-cache\a2d1c64d6cb7aab2c8a641622941866e02f83d81\output\AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-v4:25.2.0] C:\Users\ben\.android\build-cache\7a5b49648cd4387c8d997c0db6517505368901ca\output\AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-fragment:25.2.0] C:\Users\ben\.android\build-cache\dd80a4109e0cea4249b1bf91766077c772366569\output\AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-media-compat:25.2.0] C:\Users\ben\.android\build-cache\30f78ad84be280d167c11f92f4a63fa48cd2354b\output\AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-core-ui:25.2.0] C:\Users\ben\.android\build-cache\daec0cb1a5f8b2ead3ce994587da60bbeb2dc6e9\output\AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-core-utils:25.2.0] C:\Users\ben\.android\build-cache\60d48dcb1d74b6b9c5bb69aaeacfc53c3b7edc42\output\AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:animated-vector-drawable:25.2.0] C:\Users\ben\.android\build-cache\0c2b8b6186e853b14811f91a1df63f83b8dc2043\output\AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:support-vector-drawable:25.2.0] C:\Users\ben\.android\build-cache\8aef017ab8f393b869a77a3edd593348828b88f0\output\AndroidManifest.xml:23:5-20
-MERGED from [com.android.support:support-compat:25.2.0] C:\Users\ben\.android\build-cache\6b7948731aeaff181b41c0e212d68232737bd252\output\AndroidManifest.xml:25:5-20
+ADDED from C:\Users\Revant\Desktop\dell\manageexpensedelta\app\src\main\AndroidManifest.xml:14:5-82:19
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Revant\.android\build-cache\addff74f2d35a43b821a407dd0603e4bdbec5a7e\output\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:design:25.2.0] C:\Users\Revant\.android\build-cache\1e1016aa8c29db2c86c1de59a90dc67a86602ed3\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:transition:25.2.0] C:\Users\Revant\.android\build-cache\e08b7cc1b6e25279ace83b9b0d8a88dc29e5ea1b\output\AndroidManifest.xml:22:5-20
+MERGED from [com.github.QuadFlask:colorpicker:0.0.13] C:\Users\Revant\.android\build-cache\b4acd7ba15cedfdb316853eebc923c799d2b1f38\output\AndroidManifest.xml:12:5-20
+MERGED from [com.android.support:appcompat-v7:25.2.0] C:\Users\Revant\.android\build-cache\33672a8cdc755dfeabf98926d6791727b3b23220\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-v4:25.2.0] C:\Users\Revant\.android\build-cache\760d22aed3c18622935cddf22b422625afc286cc\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-fragment:25.2.0] C:\Users\Revant\.android\build-cache\2d45e11555f9344a1401fb2e8a8ec4d66afe82a9\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-media-compat:25.2.0] C:\Users\Revant\.android\build-cache\9906f1ff1cd274ac78c28aa59c1aa04e812cb362\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-ui:25.2.0] C:\Users\Revant\.android\build-cache\08e4fb49154634cb756eb18026bb3e4f3f71cbe9\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-utils:25.2.0] C:\Users\Revant\.android\build-cache\57e06890cfb5da8aa5fb5324fef835091e4044d5\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.2.0] C:\Users\Revant\.android\build-cache\a0c038af3d23e72f6f6894625b3e79f694df4f5e\output\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-vector-drawable:25.2.0] C:\Users\Revant\.android\build-cache\64fa9da28d1b1eea174f4195be54d97abaed9f31\output\AndroidManifest.xml:23:5-20
+MERGED from [com.android.support:support-compat:25.2.0] C:\Users\Revant\.android\build-cache\30f2f43ec864abf8346ab0aaff0ec8419c249c36\output\AndroidManifest.xml:25:5-20
 	android:label
-		ADDED from C:\Users\ben\Desktop\CollegeBudgetTracker\manageexpensedelta\app\src\main\AndroidManifest.xml:17:9-45
+		ADDED from C:\Users\Revant\Desktop\dell\manageexpensedelta\app\src\main\AndroidManifest.xml:17:9-45
 	android:supportsRtl
-		ADDED from C:\Users\ben\Desktop\CollegeBudgetTracker\manageexpensedelta\app\src\main\AndroidManifest.xml:18:9-35
+		ADDED from C:\Users\Revant\Desktop\dell\manageexpensedelta\app\src\main\AndroidManifest.xml:18:9-35
 	android:allowBackup
-		ADDED from C:\Users\ben\Desktop\CollegeBudgetTracker\manageexpensedelta\app\src\main\AndroidManifest.xml:15:9-35
+		ADDED from C:\Users\Revant\Desktop\dell\manageexpensedelta\app\src\main\AndroidManifest.xml:15:9-35
 	android:icon
-		ADDED from C:\Users\ben\Desktop\CollegeBudgetTracker\manageexpensedelta\app\src\main\AndroidManifest.xml:16:9-37
+		ADDED from C:\Users\Revant\Desktop\dell\manageexpensedelta\app\src\main\AndroidManifest.xml:16:9-37
 	android:theme
-		ADDED from C:\Users\ben\Desktop\CollegeBudgetTracker\manageexpensedelta\app\src\main\AndroidManifest.xml:19:9-40
+		ADDED from C:\Users\Revant\Desktop\dell\manageexpensedelta\app\src\main\AndroidManifest.xml:19:9-40
 activity#com.example.jasper.manageexpense.tabhis
-ADDED from C:\Users\ben\Desktop\CollegeBudgetTracker\manageexpensedelta\app\src\main\AndroidManifest.xml:20:9-53
+ADDED from C:\Users\Revant\Desktop\dell\manageexpensedelta\app\src\main\AndroidManifest.xml:20:9-53
 	android:name
-		ADDED from C:\Users\ben\Desktop\CollegeBudgetTracker\manageexpensedelta\app\src\main\AndroidManifest.xml:20:19-41
+		ADDED from C:\Users\Revant\Desktop\dell\manageexpensedelta\app\src\main\AndroidManifest.xml:20:19-41
 activity#com.example.jasper.manageexpense.main_mess
-ADDED from C:\Users\ben\Desktop\CollegeBudgetTracker\manageexpensedelta\app\src\main\AndroidManifest.xml:21:9-47
+ADDED from C:\Users\Revant\Desktop\dell\manageexpensedelta\app\src\main\AndroidManifest.xml:21:9-47
 	android:name
-		ADDED from C:\Users\ben\Desktop\CollegeBudgetTracker\manageexpensedelta\app\src\main\AndroidManifest.xml:21:19-44
+		ADDED from C:\Users\Revant\Desktop\dell\manageexpensedelta\app\src\main\AndroidManifest.xml:21:19-44
 activity#com.example.jasper.manageexpense.MainActivity
-ADDED from C:\Users\ben\Desktop\CollegeBudgetTracker\manageexpensedelta\app\src\main\AndroidManifest.xml:22:9-31:20
+ADDED from C:\Users\Revant\Desktop\dell\manageexpensedelta\app\src\main\AndroidManifest.xml:22:9-31:20
 	android:label
-		ADDED from C:\Users\ben\Desktop\CollegeBudgetTracker\manageexpensedelta\app\src\main\AndroidManifest.xml:24:13-49
+		ADDED from C:\Users\Revant\Desktop\dell\manageexpensedelta\app\src\main\AndroidManifest.xml:24:13-49
 	android:theme
-		ADDED from C:\Users\ben\Desktop\CollegeBudgetTracker\manageexpensedelta\app\src\main\AndroidManifest.xml:25:13-56
+		ADDED from C:\Users\Revant\Desktop\dell\manageexpensedelta\app\src\main\AndroidManifest.xml:25:13-56
 	android:name
-		ADDED from C:\Users\ben\Desktop\CollegeBudgetTracker\manageexpensedelta\app\src\main\AndroidManifest.xml:23:13-41
+		ADDED from C:\Users\Revant\Desktop\dell\manageexpensedelta\app\src\main\AndroidManifest.xml:23:13-41
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from C:\Users\ben\Desktop\CollegeBudgetTracker\manageexpensedelta\app\src\main\AndroidManifest.xml:26:13-30:29
+ADDED from C:\Users\Revant\Desktop\dell\manageexpensedelta\app\src\main\AndroidManifest.xml:26:13-30:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\ben\Desktop\CollegeBudgetTracker\manageexpensedelta\app\src\main\AndroidManifest.xml:27:17-69
+ADDED from C:\Users\Revant\Desktop\dell\manageexpensedelta\app\src\main\AndroidManifest.xml:27:17-69
 	android:name
-		ADDED from C:\Users\ben\Desktop\CollegeBudgetTracker\manageexpensedelta\app\src\main\AndroidManifest.xml:27:25-66
+		ADDED from C:\Users\Revant\Desktop\dell\manageexpensedelta\app\src\main\AndroidManifest.xml:27:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\ben\Desktop\CollegeBudgetTracker\manageexpensedelta\app\src\main\AndroidManifest.xml:29:17-77
+ADDED from C:\Users\Revant\Desktop\dell\manageexpensedelta\app\src\main\AndroidManifest.xml:29:17-77
 	android:name
-		ADDED from C:\Users\ben\Desktop\CollegeBudgetTracker\manageexpensedelta\app\src\main\AndroidManifest.xml:29:27-74
+		ADDED from C:\Users\Revant\Desktop\dell\manageexpensedelta\app\src\main\AndroidManifest.xml:29:27-74
 activity#com.example.jasper.manageexpense.Tab1
-ADDED from C:\Users\ben\Desktop\CollegeBudgetTracker\manageexpensedelta\app\src\main\AndroidManifest.xml:32:9-41:20
+ADDED from C:\Users\Revant\Desktop\dell\manageexpensedelta\app\src\main\AndroidManifest.xml:32:9-41:20
 	android:label
-		ADDED from C:\Users\ben\Desktop\CollegeBudgetTracker\manageexpensedelta\app\src\main\AndroidManifest.xml:34:13-49
+		ADDED from C:\Users\Revant\Desktop\dell\manageexpensedelta\app\src\main\AndroidManifest.xml:34:13-49
 	android:theme
-		ADDED from C:\Users\ben\Desktop\CollegeBudgetTracker\manageexpensedelta\app\src\main\AndroidManifest.xml:35:13-56
+		ADDED from C:\Users\Revant\Desktop\dell\manageexpensedelta\app\src\main\AndroidManifest.xml:35:13-56
 	android:name
-		ADDED from C:\Users\ben\Desktop\CollegeBudgetTracker\manageexpensedelta\app\src\main\AndroidManifest.xml:33:13-33
+		ADDED from C:\Users\Revant\Desktop\dell\manageexpensedelta\app\src\main\AndroidManifest.xml:33:13-33
 intent-filter#android.intent.action.MAIN+android.intent.category.DEFAULT
-ADDED from C:\Users\ben\Desktop\CollegeBudgetTracker\manageexpensedelta\app\src\main\AndroidManifest.xml:36:13-40:29
+ADDED from C:\Users\Revant\Desktop\dell\manageexpensedelta\app\src\main\AndroidManifest.xml:36:13-40:29
 category#android.intent.category.DEFAULT
-ADDED from C:\Users\ben\Desktop\CollegeBudgetTracker\manageexpensedelta\app\src\main\AndroidManifest.xml:39:17-76
+ADDED from C:\Users\Revant\Desktop\dell\manageexpensedelta\app\src\main\AndroidManifest.xml:39:17-76
 	android:name
-		ADDED from C:\Users\ben\Desktop\CollegeBudgetTracker\manageexpensedelta\app\src\main\AndroidManifest.xml:39:27-73
+		ADDED from C:\Users\Revant\Desktop\dell\manageexpensedelta\app\src\main\AndroidManifest.xml:39:27-73
 activity#com.example.jasper.manageexpense.Tab2
-ADDED from C:\Users\ben\Desktop\CollegeBudgetTracker\manageexpensedelta\app\src\main\AndroidManifest.xml:42:9-51:20
+ADDED from C:\Users\Revant\Desktop\dell\manageexpensedelta\app\src\main\AndroidManifest.xml:42:9-51:20
 	android:label
-		ADDED from C:\Users\ben\Desktop\CollegeBudgetTracker\manageexpensedelta\app\src\main\AndroidManifest.xml:44:13-49
+		ADDED from C:\Users\Revant\Desktop\dell\manageexpensedelta\app\src\main\AndroidManifest.xml:44:13-49
 	android:theme
-		ADDED from C:\Users\ben\Desktop\CollegeBudgetTracker\manageexpensedelta\app\src\main\AndroidManifest.xml:45:13-56
+		ADDED from C:\Users\Revant\Desktop\dell\manageexpensedelta\app\src\main\AndroidManifest.xml:45:13-56
 	android:name
-		ADDED from C:\Users\ben\Desktop\CollegeBudgetTracker\manageexpensedelta\app\src\main\AndroidManifest.xml:43:13-33
+		ADDED from C:\Users\Revant\Desktop\dell\manageexpensedelta\app\src\main\AndroidManifest.xml:43:13-33
 activity#com.example.jasper.manageexpense.TabHistory_week
-ADDED from C:\Users\ben\Desktop\CollegeBudgetTracker\manageexpensedelta\app\src\main\AndroidManifest.xml:52:9-61:20
+ADDED from C:\Users\Revant\Desktop\dell\manageexpensedelta\app\src\main\AndroidManifest.xml:52:9-61:20
 	android:label
-		ADDED from C:\Users\ben\Desktop\CollegeBudgetTracker\manageexpensedelta\app\src\main\AndroidManifest.xml:54:13-49
+		ADDED from C:\Users\Revant\Desktop\dell\manageexpensedelta\app\src\main\AndroidManifest.xml:54:13-49
 	android:theme
-		ADDED from C:\Users\ben\Desktop\CollegeBudgetTracker\manageexpensedelta\app\src\main\AndroidManifest.xml:55:13-56
+		ADDED from C:\Users\Revant\Desktop\dell\manageexpensedelta\app\src\main\AndroidManifest.xml:55:13-56
 	android:name
-		ADDED from C:\Users\ben\Desktop\CollegeBudgetTracker\manageexpensedelta\app\src\main\AndroidManifest.xml:53:13-44
+		ADDED from C:\Users\Revant\Desktop\dell\manageexpensedelta\app\src\main\AndroidManifest.xml:53:13-44
 activity#com.example.jasper.manageexpense.Update_AddExpense
-ADDED from C:\Users\ben\Desktop\CollegeBudgetTracker\manageexpensedelta\app\src\main\AndroidManifest.xml:62:9-71:20
+ADDED from C:\Users\Revant\Desktop\dell\manageexpensedelta\app\src\main\AndroidManifest.xml:62:9-71:20
 	android:label
-		ADDED from C:\Users\ben\Desktop\CollegeBudgetTracker\manageexpensedelta\app\src\main\AndroidManifest.xml:64:13-49
+		ADDED from C:\Users\Revant\Desktop\dell\manageexpensedelta\app\src\main\AndroidManifest.xml:64:13-49
 	android:theme
-		ADDED from C:\Users\ben\Desktop\CollegeBudgetTracker\manageexpensedelta\app\src\main\AndroidManifest.xml:65:13-56
+		ADDED from C:\Users\Revant\Desktop\dell\manageexpensedelta\app\src\main\AndroidManifest.xml:65:13-56
 	android:name
-		ADDED from C:\Users\ben\Desktop\CollegeBudgetTracker\manageexpensedelta\app\src\main\AndroidManifest.xml:63:13-46
+		ADDED from C:\Users\Revant\Desktop\dell\manageexpensedelta\app\src\main\AndroidManifest.xml:63:13-46
 activity#com.example.jasper.manageexpense.Setting
-ADDED from C:\Users\ben\Desktop\CollegeBudgetTracker\manageexpensedelta\app\src\main\AndroidManifest.xml:72:9-81:20
+ADDED from C:\Users\Revant\Desktop\dell\manageexpensedelta\app\src\main\AndroidManifest.xml:72:9-81:20
 	android:label
-		ADDED from C:\Users\ben\Desktop\CollegeBudgetTracker\manageexpensedelta\app\src\main\AndroidManifest.xml:74:13-49
+		ADDED from C:\Users\Revant\Desktop\dell\manageexpensedelta\app\src\main\AndroidManifest.xml:74:13-49
 	android:theme
-		ADDED from C:\Users\ben\Desktop\CollegeBudgetTracker\manageexpensedelta\app\src\main\AndroidManifest.xml:75:13-56
+		ADDED from C:\Users\Revant\Desktop\dell\manageexpensedelta\app\src\main\AndroidManifest.xml:75:13-56
 	android:name
-		ADDED from C:\Users\ben\Desktop\CollegeBudgetTracker\manageexpensedelta\app\src\main\AndroidManifest.xml:73:13-36
+		ADDED from C:\Users\Revant\Desktop\dell\manageexpensedelta\app\src\main\AndroidManifest.xml:73:13-36
 uses-sdk
-INJECTED from C:\Users\ben\Desktop\CollegeBudgetTracker\manageexpensedelta\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
-MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\ben\.android\build-cache\197aad3f832660fc5a88dfd9c89740a8e42add9e\output\AndroidManifest.xml:5:5-7:41
-MERGED from [com.android.support:design:25.2.0] C:\Users\ben\.android\build-cache\e629e20ea872fa56ef5b87c4ef1338e3a86c5095\output\AndroidManifest.xml:21:5-23:62
-MERGED from [com.android.support:recyclerview-v7:25.2.0] C:\Users\ben\.android\build-cache\c9ff4badd4b6601525ecb939348d85ce0ad55281\output\AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:transition:25.2.0] C:\Users\ben\.android\build-cache\4764a1f67e780a6a44717940d3ff6543970f08d2\output\AndroidManifest.xml:20:5-44
-MERGED from [com.desarrollodroide:fragmenttransactionextended:1] C:\Users\ben\.android\build-cache\d07bc31c2e2b275a78f41d54d0c7366de476d15f\output\AndroidManifest.xml:5:5-7:41
-MERGED from [com.github.QuadFlask:colorpicker:0.0.13] C:\Users\ben\.android\build-cache\a64a5b16493c41548d725e51929f2570470d9393\output\AndroidManifest.xml:8:5-10:41
-MERGED from [com.android.support:appcompat-v7:25.2.0] C:\Users\ben\.android\build-cache\a2d1c64d6cb7aab2c8a641622941866e02f83d81\output\AndroidManifest.xml:21:5-23:78
-MERGED from [com.android.support:support-v4:25.2.0] C:\Users\ben\.android\build-cache\7a5b49648cd4387c8d997c0db6517505368901ca\output\AndroidManifest.xml:21:5-23:54
-MERGED from [com.android.support:support-fragment:25.2.0] C:\Users\ben\.android\build-cache\dd80a4109e0cea4249b1bf91766077c772366569\output\AndroidManifest.xml:21:5-23:60
-MERGED from [com.android.support:support-media-compat:25.2.0] C:\Users\ben\.android\build-cache\30f78ad84be280d167c11f92f4a63fa48cd2354b\output\AndroidManifest.xml:21:5-23:63
-MERGED from [com.android.support:support-core-ui:25.2.0] C:\Users\ben\.android\build-cache\daec0cb1a5f8b2ead3ce994587da60bbeb2dc6e9\output\AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:support-core-utils:25.2.0] C:\Users\ben\.android\build-cache\60d48dcb1d74b6b9c5bb69aaeacfc53c3b7edc42\output\AndroidManifest.xml:21:5-23:61
-MERGED from [com.android.support:animated-vector-drawable:25.2.0] C:\Users\ben\.android\build-cache\0c2b8b6186e853b14811f91a1df63f83b8dc2043\output\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:25.2.0] C:\Users\ben\.android\build-cache\8aef017ab8f393b869a77a3edd593348828b88f0\output\AndroidManifest.xml:21:5-43
-MERGED from [com.android.support:support-compat:25.2.0] C:\Users\ben\.android\build-cache\6b7948731aeaff181b41c0e212d68232737bd252\output\AndroidManifest.xml:21:5-23:58
-MERGED from [net.margaritov.preference.colorpicker.ColorPickerPreference:ColorPickerPreference:1.0.0] C:\Users\ben\.android\build-cache\9c1cf5e842a40d80bb15ab07817b4f167f526c3f\output\AndroidManifest.xml:7:5-9:41
+INJECTED from C:\Users\Revant\Desktop\dell\manageexpensedelta\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Revant\.android\build-cache\addff74f2d35a43b821a407dd0603e4bdbec5a7e\output\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:design:25.2.0] C:\Users\Revant\.android\build-cache\1e1016aa8c29db2c86c1de59a90dc67a86602ed3\output\AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:recyclerview-v7:25.2.0] C:\Users\Revant\.android\build-cache\caedf2fee0ab016fdbe1f672f44755a9e19e8a0d\output\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:transition:25.2.0] C:\Users\Revant\.android\build-cache\e08b7cc1b6e25279ace83b9b0d8a88dc29e5ea1b\output\AndroidManifest.xml:20:5-44
+MERGED from [com.desarrollodroide:fragmenttransactionextended:1] C:\Users\Revant\.android\build-cache\459e3e31a6755d0e0fefd594cc8c63cf7a055dd8\output\AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.QuadFlask:colorpicker:0.0.13] C:\Users\Revant\.android\build-cache\b4acd7ba15cedfdb316853eebc923c799d2b1f38\output\AndroidManifest.xml:8:5-10:41
+MERGED from [com.android.support:appcompat-v7:25.2.0] C:\Users\Revant\.android\build-cache\33672a8cdc755dfeabf98926d6791727b3b23220\output\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:support-v4:25.2.0] C:\Users\Revant\.android\build-cache\760d22aed3c18622935cddf22b422625afc286cc\output\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:25.2.0] C:\Users\Revant\.android\build-cache\2d45e11555f9344a1401fb2e8a8ec4d66afe82a9\output\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-media-compat:25.2.0] C:\Users\Revant\.android\build-cache\9906f1ff1cd274ac78c28aa59c1aa04e812cb362\output\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-ui:25.2.0] C:\Users\Revant\.android\build-cache\08e4fb49154634cb756eb18026bb3e4f3f71cbe9\output\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-utils:25.2.0] C:\Users\Revant\.android\build-cache\57e06890cfb5da8aa5fb5324fef835091e4044d5\output\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:animated-vector-drawable:25.2.0] C:\Users\Revant\.android\build-cache\a0c038af3d23e72f6f6894625b3e79f694df4f5e\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:25.2.0] C:\Users\Revant\.android\build-cache\64fa9da28d1b1eea174f4195be54d97abaed9f31\output\AndroidManifest.xml:21:5-43
+MERGED from [com.android.support:support-compat:25.2.0] C:\Users\Revant\.android\build-cache\30f2f43ec864abf8346ab0aaff0ec8419c249c36\output\AndroidManifest.xml:21:5-23:58
+MERGED from [net.margaritov.preference.colorpicker.ColorPickerPreference:ColorPickerPreference:1.0.0] C:\Users\Revant\.android\build-cache\478ac4425c6563f545e7f19fb8949949c233b086\output\AndroidManifest.xml:7:5-9:41
 	tools:overrideLibrary
-		ADDED from [com.android.support:design:25.2.0] C:\Users\ben\.android\build-cache\e629e20ea872fa56ef5b87c4ef1338e3a86c5095\output\AndroidManifest.xml:23:9-59
+		ADDED from [com.android.support:design:25.2.0] C:\Users\Revant\.android\build-cache\1e1016aa8c29db2c86c1de59a90dc67a86602ed3\output\AndroidManifest.xml:23:9-59
 	android:targetSdkVersion
-		INJECTED from C:\Users\ben\Desktop\CollegeBudgetTracker\manageexpensedelta\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\ben\Desktop\CollegeBudgetTracker\manageexpensedelta\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Revant\Desktop\dell\manageexpensedelta\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Revant\Desktop\dell\manageexpensedelta\app\src\main\AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from C:\Users\ben\Desktop\CollegeBudgetTracker\manageexpensedelta\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\ben\Desktop\CollegeBudgetTracker\manageexpensedelta\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Revant\Desktop\dell\manageexpensedelta\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Revant\Desktop\dell\manageexpensedelta\app\src\main\AndroidManifest.xml
