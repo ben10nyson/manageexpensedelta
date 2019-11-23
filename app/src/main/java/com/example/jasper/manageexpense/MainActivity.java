@@ -49,10 +49,6 @@ public class MainActivity extends AppCompatActivity
         NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
         navigationView.setNavigationItemSelectedListener(this);
 
-//        Overview fragment = new Overview();
-//        android.support.v4.app.FragmentTransaction fragmentTransaction = getSupportFragmentManager().beginTransaction();
-//        fragmentTransaction.replace(R.id.frame, fragment, "Home");
-//        fragmentTransaction.commit();
 
         Graph_all fragment = new Graph_all();
         android.support.v4.app.FragmentTransaction fragmentTransaction = getSupportFragmentManager().beginTransaction();
@@ -72,16 +68,14 @@ public class MainActivity extends AppCompatActivity
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
-        // Inflate the menu; this adds items to the action bar if it is present.
+
         getMenuInflater().inflate(R.menu.main, menu);
 
         return true;
     }
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
-        // Handle action bar item clicks here. The action bar will
-        // automatically handle clicks on the Home/Up button, so long
-        // as you specify a parent activity in AndroidManifest.xml.
+
         int id = item.getItemId();
 
 
@@ -105,12 +99,7 @@ public class MainActivity extends AppCompatActivity
         // Handle navigation view item clicks here.
         int id = item.getItemId();
 
-//        if (id == R.id.Overview) {
-//            setTitle("Overview");
-//            Overview fragment = new Overview();
-//            android.support.v4.app.FragmentTransaction fragmentTransaction = getSupportFragmentManager().beginTransaction();
-//            fragmentTransaction.replace(R.id.frame, fragment, "Overview");
-//            fragmentTransaction.commit();
+
 //        }
         if (id == R.id.History) {
             setTitle("History");
@@ -119,10 +108,7 @@ public class MainActivity extends AppCompatActivity
             fragmentTransaction.replace(R.id.frame, fragment, "History");
             fragmentTransaction.commit();
         }
-//            Graph_all fragment = new Graph_all();
-//            android.support.v4.app.FragmentTransaction fragmentTransaction = getSupportFragmentManager().beginTransaction();
-//            fragmentTransaction.replace(R.id.frame, fragment, "Graphs");
-//            fragmentTransaction.commit();
+
         else if (id == R.id.Settings) {
             startActivity(new Intent(this, Setting.class));
         }

@@ -99,72 +99,19 @@ public class DBHelper extends SQLiteOpenHelper {
         return res;
     }
 
-    public Cursor getDataAdd(int id) {
+
+
+
+
+
+
+
+
+
+    public int deleteAddCategory(String value,String ui,String notee) {
+
         SQLiteDatabase db = this.getWritableDatabase();
-        Cursor cursor_add = db.rawQuery("select * from Category where id_add=" + id + "", null);
-        return cursor_add;
-    }
-
-    public Cursor getsumExpenseAmount(int id) {
-        SQLiteDatabase db = this.getWritableDatabase();
-        Cursor cursor_EA = db.rawQuery("select sum(amount) from Add_Expense where category_add = '$category_add' ", null);
-        return cursor_EA;
-    }
-
-    public int numberOfRows() {
-        SQLiteDatabase db = this.getReadableDatabase();
-        int numRows = (int) DatabaseUtils.queryNumEntries(db, EXPENSE_TABLE_NAME);
-        return numRows;
-    }
-
-    public int numberOfRowsAdd() {
-        SQLiteDatabase db = this.getReadableDatabase();
-        int numRowsAdd = (int) DatabaseUtils.queryNumEntries(db, EXPENSE_TABLE_ADD);
-        return numRowsAdd;
-    }
-
-    public boolean updateCategory(Integer id, String name) {
-        SQLiteDatabase db = this.getWritableDatabase();
-        ContentValues contentValues = new ContentValues();
-        contentValues.put("id", id);
-        contentValues.put("category_name", name);
-
-        db.update("Category", contentValues, EXPENSE_COLUMN_ID+ "=" +id, null);
-        return true;
-    }
-
-    public boolean updateAddExpense(Integer id, String name) {
-        SQLiteDatabase db = this.getWritableDatabase();
-
-        ContentValues contentValues = new ContentValues();
-        contentValues.put("id", id);
-        contentValues.put("category_add", name);
-
-        db.update("Add_Expense", contentValues, EXPENSE_COLUMN_ID + "=" +id , new String[]{name});
-        return true;
-    }
-
-    public boolean updateCategoryAdd(Integer id, String category_add, String amount, String date, String note) {
-        SQLiteDatabase db = this.getWritableDatabase();
-        ContentValues contentValues = new ContentValues();
-        contentValues.put("add_id", id);
-        contentValues.put("category_add", category_add);
-        contentValues.put("amount", amount);
-        contentValues.put("date", date);
-        contentValues.put("note", note);
-
-        db.update("Add_Expense", contentValues,EXPENSE_ADD_COLUMN_ID+ "=" +id , null );
-        return true;
-    }
-
-    public boolean deleteCategory(String value) {
-        SQLiteDatabase db = this.getWritableDatabase();
-        return db.delete(EXPENSE_TABLE_NAME, EXPENSE_COLUMN_CATEGORY_NAME + "='" + value +"' ;", null) > 0;
-    }
-
-    public int deleteAddCategory(String value,String ui) {
-        SQLiteDatabase db = this.getWritableDatabase();
-        return db.delete(EXPENSE_TABLE_ADD, EXPENSE_ADD_COLUMN_CATEGORY_ADD + "='"+ui+"' AND "+EXPENSE_ADD_COLUMN_AMOUNT+"='"+value +"';", null) ;
+        return db.delete(EXPENSE_TABLE_ADD, EXPENSE_ADD_COLUMN_CATEGORY_ADD + "='"+ui+"' AND "+EXPENSE_ADD_COLUMN_AMOUNT+"='"+value +"'AND "+EXPENSE_ADD_COLUMN_NOTE+"='"+notee+"';", null) ;
     }
     public int deleteAdd1Category(String value) {
         SQLiteDatabase db = this.getWritableDatabase();
@@ -173,11 +120,7 @@ public class DBHelper extends SQLiteOpenHelper {
 
 
 
-    public int deleteAddExpense(int id){
-        SQLiteDatabase db = this.getWritableDatabase();
-        return db.delete(EXPENSE_TABLE_ADD, EXPENSE_ADD_COLUMN_ID +"=" + id , null);
 
-    }
 
     public ArrayList<String> getAllCategory() {
         ArrayList<String> array_list = new ArrayList<String>();
@@ -192,25 +135,6 @@ public class DBHelper extends SQLiteOpenHelper {
         }
         return array_list;
     }
-  /*  public List<Overview_ListView> getOverviewList() {
-        Overview_ListView overList = null;
-
-        List<Overview_ListView> listOverview = new ArrayList<>();
-        hp = new HashMap();
-        SQLiteDatabase db = this.getReadableDatabase();
-        Cursor cursor = db.rawQuery("SELECT category_add, date, note,  SUM(amount) AS total  FROM Add_Expense  Group by category_add ORDER by date desc ", null);
-        cursor.moveToFirst();
-        while (!cursor.isAfterLast()) {
-            overList = new Overview_ListView(cursor.getInt(0), cursor.getString(cursor.getColumnIndexOrThrow("category_add")), cursor.getInt(cursor.getColumnIndexOrThrow("total")),
-                     cursor.getString(cursor.getColumnIndexOrThrow("date")), cursor.getString(cursor.getColumnIndexOrThrow("note")));
-            listOverview.add(overList);
-            cursor.moveToNext();
-
-        }
-        cursor.close();
-        db.close();
-        return listOverview;
-    }*/
 
     public List<TabHistory_Week_List> getHistoryWeek() {
         TabHistory_Week_List sample = null;
@@ -324,44 +248,9 @@ public class DBHelper extends SQLiteOpenHelper {
         return listOverview;
     }
 
-    public List<TabHistory_Week_List> getHistoryList(){
-        TabHistory_Week_List tab = null;
-
-        List<TabHistory_Week_List> listArrayList = new ArrayList<>();
-        hp = new HashMap();
-        SQLiteDatabase db = this.getReadableDatabase();
-        Cursor cursor = db.rawQuery("SELECT *  FROM Add_Expense ", null);
-        cursor.moveToFirst();
-
-        while (!cursor.isAfterLast()) {
-            tab = new TabHistory_Week_List(cursor.getInt(0), cursor.getString(1), cursor.getInt(2), cursor.getString(3), cursor.getString(4));
-            listArrayList.add(tab);
-            cursor.moveToNext();
-        }
-        cursor.close();
-        db.close();
-        return listArrayList;
-    }
 
 
 
-    public List<List_All> getAllList() {
-        List_All overList = null;
 
-        List<List_All> listOverview = new ArrayList<>();
-        hp = new HashMap();
-        SQLiteDatabase db = this.getReadableDatabase();
-        Cursor cursor = db.rawQuery("SELECT category_name, SUM(amount) AS total, date FROM Add_Expense " , null);
-        cursor.moveToFirst();
-        while (!cursor.isAfterLast()) {
-            overList = new List_All(cursor.getInt(0), cursor.getString(cursor.getColumnIndexOrThrow("category_name")),
-                    cursor.getInt(cursor.getColumnIndexOrThrow("total")), cursor.getString(cursor.getColumnIndexOrThrow("date")) );
-            listOverview.add(overList);
-            cursor.moveToNext();
 
-        }
-        cursor.close();
-        db.close();
-        return listOverview;
-    }
 }

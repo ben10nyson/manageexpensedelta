@@ -324,10 +324,6 @@
         "source": "C:\\Users\\ben\\Desktop\\CollegeBudgetTracker\\manageexpensedelta\\app\\src\\main\\res\\layout\\activity_main_mess.xml"
     },
     {
-        "merged": "C:\\Users\\Revant\\Desktop\\dell\\manageexpensedelta\\app\\build\\intermediates\\res\\merged\\debug\\layout\\listview_name.xml",
-        "source": "C:\\Users\\Revant\\Desktop\\dell\\manageexpensedelta\\app\\src\\main\\res\\layout\\listview_name.xml"
-    },
-    {
         "merged": "C:\\Users\\ben\\Desktop\\CollegeBudgetTracker\\manageexpensedelta\\app\\build\\intermediates\\res\\merged\\debug\\layout\\support_simple_spinner_dropdown_item.xml",
         "source": "C:\\Users\\ben\\.android\\build-cache\\a2d1c64d6cb7aab2c8a641622941866e02f83d81\\output\\res\\layout\\support_simple_spinner_dropdown_item.xml"
     },
