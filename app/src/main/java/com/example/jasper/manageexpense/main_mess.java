@@ -55,7 +55,39 @@ TextView t;
         String jj=db.getContacts1Count();
         String oo=jj.substring(3,5);
         int yy=Integer.parseInt(oo);
-        int gj=30-yy;
+        String oo1=jj.substring(0,2);
+        int yy1=Integer.parseInt(oo1);
+        int month=0;
+        switch(yy1)
+        {
+            case 1:{month=31;
+            break;}
+            case 2:{month=28;
+                break;}
+            case 3:{month=31;
+                break;}
+            case 4:{month=30;
+                break;}
+            case 5:{month=31;
+                break;}
+            case 6:{month=30;
+                break;}
+            case 7:{month=31;
+                break;}
+            case 8:{month=31;
+                break;}
+            case 9:{month=30;
+                break;}
+            case 10:{month=31;
+                break;}
+            case 11:{month=30;
+                break;}
+            case 12:{month=31;
+                break;}
+
+        }
+
+        int gj=month-yy;
         int average=(3800-a)/gj;
         t.setText(Integer.toString(average), TextView.BufferType.EDITABLE);
         Log.d("Name: ", jj);
