@@ -136,12 +136,12 @@
         "source": "C:\\Users\\ben\\Desktop\\CollegeBudgetTracker\\manageexpensedelta\\app\\src\\main\\res\\layout\\edit_expense_list.xml"
     },
     {
-        "merged": "C:\\Users\\ben\\Desktop\\CollegeBudgetTracker\\manageexpensedelta\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_toolbar.xml",
-        "source": "C:\\Users\\ben\\.android\\build-cache\\a2d1c64d6cb7aab2c8a641622941866e02f83d81\\output\\res\\layout\\abc_screen_toolbar.xml"
-    },
-    {
         "merged": "C:\\Users\\ben\\Desktop\\CollegeBudgetTracker\\manageexpensedelta\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view.xml",
         "source": "C:\\Users\\ben\\.android\\build-cache\\a2d1c64d6cb7aab2c8a641622941866e02f83d81\\output\\res\\layout\\abc_activity_chooser_view.xml"
+    },
+    {
+        "merged": "C:\\Users\\ben\\Desktop\\CollegeBudgetTracker\\manageexpensedelta\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_toolbar.xml",
+        "source": "C:\\Users\\ben\\.android\\build-cache\\a2d1c64d6cb7aab2c8a641622941866e02f83d81\\output\\res\\layout\\abc_screen_toolbar.xml"
     },
     {
         "merged": "C:\\Users\\ben\\Desktop\\CollegeBudgetTracker\\manageexpensedelta\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_multichoice_material.xml",
@@ -208,20 +208,20 @@
         "source": "C:\\Users\\ben\\.android\\build-cache\\e629e20ea872fa56ef5b87c4ef1338e3a86c5095\\output\\res\\layout\\design_menu_item_action_area.xml"
     },
     {
-        "merged": "C:\\Users\\ben\\Desktop\\CollegeBudgetTracker\\manageexpensedelta\\app\\build\\intermediates\\res\\merged\\debug\\layout\\tab1.xml",
-        "source": "C:\\Users\\ben\\Desktop\\CollegeBudgetTracker\\manageexpensedelta\\app\\src\\main\\res\\layout\\tab1.xml"
-    },
-    {
-        "merged": "C:\\Users\\ben\\Desktop\\CollegeBudgetTracker\\manageexpensedelta\\app\\build\\intermediates\\res\\merged\\debug\\layout\\tab4.xml",
-        "source": "C:\\Users\\ben\\Desktop\\CollegeBudgetTracker\\manageexpensedelta\\app\\src\\main\\res\\layout\\tab4.xml"
+        "merged": "C:\\Users\\ben\\Desktop\\CollegeBudgetTracker\\manageexpensedelta\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_tab_icon.xml",
+        "source": "C:\\Users\\ben\\.android\\build-cache\\e629e20ea872fa56ef5b87c4ef1338e3a86c5095\\output\\res\\layout\\design_layout_tab_icon.xml"
     },
     {
         "merged": "C:\\Users\\ben\\Desktop\\CollegeBudgetTracker\\manageexpensedelta\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_layout.xml",
         "source": "C:\\Users\\ben\\.android\\build-cache\\a2d1c64d6cb7aab2c8a641622941866e02f83d81\\output\\res\\layout\\abc_action_menu_layout.xml"
     },
     {
-        "merged": "C:\\Users\\ben\\Desktop\\CollegeBudgetTracker\\manageexpensedelta\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_tab_icon.xml",
-        "source": "C:\\Users\\ben\\.android\\build-cache\\e629e20ea872fa56ef5b87c4ef1338e3a86c5095\\output\\res\\layout\\design_layout_tab_icon.xml"
+        "merged": "C:\\Users\\ben\\Desktop\\CollegeBudgetTracker\\manageexpensedelta\\app\\build\\intermediates\\res\\merged\\debug\\layout\\tab4.xml",
+        "source": "C:\\Users\\ben\\Desktop\\CollegeBudgetTracker\\manageexpensedelta\\app\\src\\main\\res\\layout\\tab4.xml"
+    },
+    {
+        "merged": "C:\\Users\\ben\\Desktop\\CollegeBudgetTracker\\manageexpensedelta\\app\\build\\intermediates\\res\\merged\\debug\\layout\\tab1.xml",
+        "source": "C:\\Users\\ben\\Desktop\\CollegeBudgetTracker\\manageexpensedelta\\app\\src\\main\\res\\layout\\tab1.xml"
     },
     {
         "merged": "C:\\Users\\ben\\Desktop\\CollegeBudgetTracker\\manageexpensedelta\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_menu.xml",

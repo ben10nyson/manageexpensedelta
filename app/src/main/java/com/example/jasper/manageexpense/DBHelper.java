@@ -163,7 +163,7 @@ public class DBHelper extends SQLiteOpenHelper {
 
     public int deleteAddCategory(String value,String ui) {
         SQLiteDatabase db = this.getWritableDatabase();
-        return db.delete(EXPENSE_TABLE_ADD, EXPENSE_ADD_COLUMN_CATEGORY_ADD + "="+value+"AND"+EXPENSE_ADD_COLUMN_AMOUNT+"="+ui, null) ;
+        return db.delete(EXPENSE_TABLE_ADD, EXPENSE_ADD_COLUMN_CATEGORY_ADD + "='"+ui+"' AND "+EXPENSE_ADD_COLUMN_AMOUNT+"='"+value +"';", null) ;
     }
 
     public int deleteAddExpense(int id){
