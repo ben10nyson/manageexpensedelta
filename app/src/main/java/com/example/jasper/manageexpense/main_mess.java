@@ -20,7 +20,9 @@ import android.widget.ListView;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import java.text.SimpleDateFormat;
 import java.util.ArrayList;
+import java.util.Date;
 import java.util.List;
 
 
@@ -30,7 +32,7 @@ TextView t;
     ListView list;
     TabHistory_Week_Adapter adapter;
     List<TabHistory_Week_List> lists;
-    List<tabhis> listss;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
 
@@ -42,15 +44,19 @@ TextView t;
         lists = db.getMessWeek();
         adapter = new TabHistory_Week_Adapter(getApplicationContext(), (ArrayList<TabHistory_Week_List>) lists);
         list.setAdapter(adapter);
+        SimpleDateFormat sdf = new SimpleDateFormat("yyyy.MM.dd G 'at' HH:mm:ss z");
+        String currentDateandTime = sdf.format(new Date());
+        Log.d("Name: ", currentDateandTime);
+        String jk=currentDateandTime.substring(8,10);
+        int ui=Integer.parseInt(jk);
+        if(jk.equals("01"))
+        {
+            int gg=db.deleteAdd1Category("Mess");
+        }
+     //   DBHelper db = new DBHelper(getApplicationContext());
 
+      //  int gg=db.deleteAddCategory(h,g);
 
-        //ArrayList<String>a=new ArrayList<>();
-      // a=db.getMess1Week();
-       // DBHelper db = new DBHelper(getApplicationContext());
-      //  listss = db.getMess1Week();
-        //tabhis a=listss.get(0);
-      //  adapter = new TabHistory_Week_Adapter(getApplicationContext(), (ArrayList<TabHistory_Week_List>) lists);
-       // Toast.makeText(getApplicationContext(), a,Toast.LENGTH_SHORT).show();
         int a=db.getContactsCount();
         String jj=db.getContacts1Count();
         String oo=jj.substring(3,5);
@@ -90,7 +96,7 @@ TextView t;
         int gj=month-yy;
         int average=(3800-a)/gj;
         t.setText(Integer.toString(average), TextView.BufferType.EDITABLE);
-        Log.d("Name: ", jj);
+
 
 
     }

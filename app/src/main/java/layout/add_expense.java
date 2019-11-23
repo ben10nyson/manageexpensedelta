@@ -12,7 +12,7 @@ import android.widget.TabHost;
 
 import com.example.jasper.manageexpense.R;
 import com.example.jasper.manageexpense.Tab1;
-import com.example.jasper.manageexpense.Tab2;
+//import com.example.jasper.manageexpense.Tab2;
 
 /**
  * A simple {@link Fragment} subclass.
@@ -47,7 +47,7 @@ public class add_expense extends Fragment {
         //Setting up tab 2 name.
         TabMenu2.setIndicator("Expense");
         //Set tab 3 activity to tab 1 menu.
-        TabMenu2.setContent(new Intent(getActivity(),Tab2.class));
+       // TabMenu2.setContent(new Intent(getActivity(),Tab2.class));
 
 
         TabHostWindow.addTab(TabMenu1);

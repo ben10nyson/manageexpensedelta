@@ -23,7 +23,6 @@
         android:label="CollegeBudgetTracker"
         android:supportsRtl="true"
         android:theme="@style/AppTheme" >
-        <activity android:name="com.example.jasper.manageexpense.tabhis" />
         <activity android:name="com.example.jasper.manageexpense.main_mess" />
         <activity
             android:name="com.example.jasper.manageexpense.MainActivity"

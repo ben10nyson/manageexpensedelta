@@ -166,6 +166,12 @@ public class DBHelper extends SQLiteOpenHelper {
         SQLiteDatabase db = this.getWritableDatabase();
         return db.delete(EXPENSE_TABLE_ADD, EXPENSE_ADD_COLUMN_CATEGORY_ADD + "='"+ui+"' AND "+EXPENSE_ADD_COLUMN_AMOUNT+"='"+value +"';", null) ;
     }
+    public int deleteAdd1Category(String value) {
+        SQLiteDatabase db = this.getWritableDatabase();
+        return db.delete(EXPENSE_TABLE_ADD, EXPENSE_ADD_COLUMN_CATEGORY_ADD + "="+value,null) ;
+    }
+
+
 
     public int deleteAddExpense(int id){
         SQLiteDatabase db = this.getWritableDatabase();
@@ -186,7 +192,7 @@ public class DBHelper extends SQLiteOpenHelper {
         }
         return array_list;
     }
-    public List<Overview_ListView> getOverviewList() {
+  /*  public List<Overview_ListView> getOverviewList() {
         Overview_ListView overList = null;
 
         List<Overview_ListView> listOverview = new ArrayList<>();
@@ -204,7 +210,7 @@ public class DBHelper extends SQLiteOpenHelper {
         cursor.close();
         db.close();
         return listOverview;
-    }
+    }*/
 
     public List<TabHistory_Week_List> getHistoryWeek() {
         TabHistory_Week_List sample = null;
@@ -337,24 +343,7 @@ public class DBHelper extends SQLiteOpenHelper {
         return listArrayList;
     }
 
-    public List<Edit_expense_List> getAllExpenses() {
-        Edit_expense_List list = null;
 
-        List<Edit_expense_List> listArray = new ArrayList<>();
-        hp = new HashMap();
-        SQLiteDatabase db = this.getReadableDatabase();
-        Cursor cursor = db.rawQuery("SELECT *  FROM Add_Expense ", null);
-        cursor.moveToFirst();
-
-        while (!cursor.isAfterLast()) {
-            list = new Edit_expense_List(cursor.getInt(0), cursor.getString(1), cursor.getString(2), cursor.getString(3), cursor.getString(4));
-            listArray.add(list);
-            cursor.moveToNext();
-        }
-        cursor.close();
-        db.close();
-        return listArray;
-    }
 
     public List<List_All> getAllList() {
         List_All overList = null;

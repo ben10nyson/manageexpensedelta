@@ -14,6 +14,7 @@ import java.util.List;
  * Created by Techsoft - 001 on 5/11/2017.
  */
 
+/*
 public class List_All_Adapter extends BaseAdapter {
 
     Context context;
@@ -58,3 +59,4 @@ public class List_All_Adapter extends BaseAdapter {
         return view;
     }
 }
+*/

@@ -39,9 +39,7 @@ public class History extends Fragment {
     TabHistory_Week_Adapter adapter;
     List<TabHistory_Week_List> lists;
 
-    public History()
-
-    {
+    public History() {
         // Required empty public constructor
     }
 
@@ -67,9 +65,9 @@ public class History extends Fragment {
         getActivity().getMenuInflater().inflate(R.menu.main, menu);
         return true;
     }
+}
 
-    @Override
-    public boolean onOptionsItemSelected(MenuItem item) {
+   /* public boolean onOptionsItemSelected(MenuItem item) {
         int id = item.getItemId();
         //noinspection SimplifiableIfStatement
         if (id == R.id.editText) {
@@ -77,4 +75,4 @@ public class History extends Fragment {
         }
         return super.onOptionsItemSelected(item);
     }
-}
+}*/

@@ -49,6 +49,7 @@ public class Update_AddExpense extends Activity{
                 String h=tt.getText().toString();
                // int jg=Integer.parseInt(g);
                 DBHelper db = new DBHelper(getApplicationContext());
+
                int gg=db.deleteAddCategory(h,g);
 
 

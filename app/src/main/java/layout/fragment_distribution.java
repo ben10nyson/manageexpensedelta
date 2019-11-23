@@ -12,7 +12,7 @@ import com.example.jasper.manageexpense.R;
 /**
  * A simple {@link Fragment} subclass.
  */
-public class fragment_distribution extends Fragment {
+/*public class fragment_distribution extends Fragment {
 
 
     public fragment_distribution() {
@@ -27,4 +27,4 @@ public class fragment_distribution extends Fragment {
         return inflater.inflate(R.layout.fragment_fragment_distribution, container, false);
     }
 
-}
+}*/

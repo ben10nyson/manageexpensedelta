@@ -17,7 +17,7 @@
         android:label="CollegeBudgetTracker"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".tabhis"></activity>
+
         <activity android:name=".main_mess" />
         <activity
             android:name=".MainActivity"

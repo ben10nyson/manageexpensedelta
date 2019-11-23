@@ -40,10 +40,6 @@ MERGED from [com.android.support:support-compat:25.2.0] C:\Users\Revant\.android
 		ADDED from C:\Users\Revant\Desktop\dell\manageexpensedelta\app\src\main\AndroidManifest.xml:16:9-37
 	android:theme
 		ADDED from C:\Users\Revant\Desktop\dell\manageexpensedelta\app\src\main\AndroidManifest.xml:19:9-40
-activity#com.example.jasper.manageexpense.tabhis
-ADDED from C:\Users\Revant\Desktop\dell\manageexpensedelta\app\src\main\AndroidManifest.xml:20:9-53
-	android:name
-		ADDED from C:\Users\Revant\Desktop\dell\manageexpensedelta\app\src\main\AndroidManifest.xml:20:19-41
 activity#com.example.jasper.manageexpense.main_mess
 ADDED from C:\Users\Revant\Desktop\dell\manageexpensedelta\app\src\main\AndroidManifest.xml:21:9-47
 	android:name
