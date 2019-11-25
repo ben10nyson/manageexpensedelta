@@ -22,6 +22,7 @@ import android.widget.Toast;
 
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
+import java.util.Calendar;
 import java.util.Date;
 import java.util.List;
 
@@ -44,25 +45,31 @@ TextView t;
         lists = db.getMessWeek();
         adapter = new TabHistory_Week_Adapter(getApplicationContext(), (ArrayList<TabHistory_Week_List>) lists);
         list.setAdapter(adapter);
-        SimpleDateFormat sdf = new SimpleDateFormat("yyyy.MM.dd G 'at' HH:mm:ss z");
-        String currentDateandTime = sdf.format(new Date());
-        Log.d("Name: ", currentDateandTime);
-        String jk=currentDateandTime.substring(8,10);
-        int ui=Integer.parseInt(jk);
-        if(jk.equals("01"))
-        {
-            int gg=db.deleteAdd1Category("Mess");
-        }
+//        SimpleDateFormat sdf = new SimpleDateFormat("yyyy.MM.dd G 'at' HH:mm:ss z");
+//        String currentDateandTime = sdf.format(new Date());
+//        Log.d("Name: ", currentDateandTime);
+//        String jk=currentDateandTime.substring(8,10);
+//        int ui=Integer.parseInt(jk);
+//        if(jk.equals("01"))
+//        {
+//            int gg=db.deleteAdd1Category("Mess");
+//        }
      //   DBHelper db = new DBHelper(getApplicationContext());
 
       //  int gg=db.deleteAddCategory(h,g);
-
+        Calendar c = Calendar.getInstance();
         int a=db.getContactsCount();
-        String jj=db.getContacts1Count();
-        String oo=jj.substring(3,5);
-        int yy=Integer.parseInt(oo);
-        String oo1=jj.substring(0,2);
-        int yy1=Integer.parseInt(oo1);
+//        String jj=db.getContacts1Count();
+//        String oo=jj.substring(3,5);
+//        int yy=Integer.parseInt(oo);
+//        String oo1=jj.substring(0,2);
+//        int yy1=Integer.parseInt(oo1);
+        int yy = c.get(Calendar.DAY_OF_MONTH);
+        int yy1 = c.get(Calendar.MONTH);
+        Log.d("Date", Integer.toString(yy));
+        Log.d("Month", Integer.toString(yy1));
+
+        yy1 = yy1 + 1;
         int month=0;
         switch(yy1)
         {

@@ -7,6 +7,7 @@ import android.database.DatabaseUtils;
 import android.database.SQLException;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
+import android.util.Log;
 
 import java.util.ArrayList;
 import java.util.Date;
@@ -14,6 +15,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Locale;
 import java.util.Set;
+import java.util.Calendar;
 
 /**
  * Created by Jasper on 2/24/2017.
@@ -159,7 +161,13 @@ public class DBHelper extends SQLiteOpenHelper {
         List<TabHistory_Week_List> sampleList = new ArrayList<>();
         hp = new HashMap();
         SQLiteDatabase db = this.getReadableDatabase();
-        Cursor cursor = db.rawQuery("select * from Add_Expense where category_Add='Mess' ", null);
+        Calendar c = Calendar.getInstance();
+        int mon = c.get(Calendar.MONTH);
+        mon = mon + 1;
+        String month = Integer.toString(mon);
+        String date = month + "%";
+        String query = "select * from Add_Expense where category_Add='Mess' and date like '" + date + "';";
+        Cursor cursor = db.rawQuery(query, null);
         cursor.moveToFirst();
         while (!cursor.isAfterLast()) {
             sample = new TabHistory_Week_List(cursor.getInt(0), cursor.getString(1), cursor.getInt(2), cursor.getString(3), cursor.getString(4));
@@ -172,7 +180,13 @@ public class DBHelper extends SQLiteOpenHelper {
     }
 
     public int getContactsCount() {
-        String countQuery = "SELECT  amount FROM Add_Expense where category_Add='Mess' " ;
+
+        Calendar c = Calendar.getInstance();
+        int month = c.get(Calendar.MONTH);
+        month = month + 1;
+        String mon = Integer.toString(month);
+        String date = mon + "%";
+        String countQuery = "SELECT  amount FROM Add_Expense where category_Add='Mess' and date like '" + date + "';" ;
         SQLiteDatabase db = this.getReadableDatabase();
         Cursor cursor = db.rawQuery(countQuery, null);
         cursor.moveToFirst();

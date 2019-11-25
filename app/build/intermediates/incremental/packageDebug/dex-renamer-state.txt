@@ -1,4 +1,4 @@
-#Sun Nov 24 00:00:25 IST 2019
+#Mon Nov 25 11:13:56 IST 2019
 base.0=C\:\\Users\\Revant\\Desktop\\dell\\manageexpensedelta\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main
 renamed.0=classes.dex
 file.0=C\:\\Users\\Revant\\Desktop\\dell\\manageexpensedelta\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main\\classes.dex
