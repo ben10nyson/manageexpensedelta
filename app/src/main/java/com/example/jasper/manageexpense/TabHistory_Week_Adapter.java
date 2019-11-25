@@ -50,10 +50,11 @@ public class TabHistory_Week_Adapter extends BaseAdapter{
         View view = View.inflate(context, R.layout.tab_history_week_list, null);
 
         TextView txtName = (TextView)view.findViewById(R.id.tbhw_name);
+      //  TextView txttId = (TextView)view.findViewById(R.id.textView20);
         TextView txtDate = (TextView)view.findViewById(R.id.tbhw_date);
         TextView txtAmount = (TextView)view.findViewById(R.id.tbhw_amount);
         TextView txtNote = (TextView)view.findViewById(R.id.tbhw_note);
-
+//txttId.setText(listWeek.get(position).getId());
         txtName.setText(listWeek.get(position).getName());
         DecimalFormat precision = new DecimalFormat("0.00");
         txtAmount.setText(precision.format(listWeek.get(position).getAmount()));

@@ -71,7 +71,7 @@
         android:layout_alignParentRight="false"
         android:layout_alignParentBottom="false"
         android:layout_marginTop="37dp"
-        android:text="Button" />
+        android:text="DELETE" />
 
     <TextView
         android:id="@+id/textView4"

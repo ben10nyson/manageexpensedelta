@@ -45,12 +45,6 @@
             android:layout_marginTop="5dp"
             android:orientation="vertical">
 
-            <TextView
-                android:id="@+id/textView"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="EXPENSES" />
-
             <Button
                 android:id="@+id/btn_settings_addCat"
                 style="@style/Widget.AppCompat.Button.Borderless"
@@ -64,9 +58,14 @@
 
             <Button
                 android:id="@+id/button2"
+                style="@style/Widget.AppCompat.Button.Borderless"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Delete expense" />
+                android:layout_marginTop="5dp"
+                android:text="Delete Expense"
+                android:textAlignment="textStart"
+                android:textAllCaps="false"
+                android:textSize="18sp" />
 
         </LinearLayout>
     </ScrollView>
