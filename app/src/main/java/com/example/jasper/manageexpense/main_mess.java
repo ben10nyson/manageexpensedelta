@@ -29,7 +29,7 @@ import java.util.List;
 
 
 public class main_mess extends Activity {
-TextView t;
+TextView t,tt;
     ListView list;
     TabHistory_Week_Adapter adapter;
     List<TabHistory_Week_List> lists;
@@ -41,6 +41,7 @@ TextView t;
         setContentView(R.layout.activity_main_mess);
         list = (ListView) findViewById(R.id.listt);
         t=(TextView) findViewById(R.id.textView8);
+        tt=(TextView) findViewById(R.id.textView19);
         DBHelper db = new DBHelper(getApplicationContext());
         lists = db.getMessWeek();
         adapter = new TabHistory_Week_Adapter(getApplicationContext(), (ArrayList<TabHistory_Week_List>) lists);
@@ -102,6 +103,8 @@ TextView t;
 
         int gj=month-yy;
         int average=(3800-a)/gj;
+        int amount_left = (average - 200) * gj;
+        tt.setText(Integer.toString(amount_left),TextView.BufferType.EDITABLE);
         t.setText(Integer.toString(average), TextView.BufferType.EDITABLE);
 
 
